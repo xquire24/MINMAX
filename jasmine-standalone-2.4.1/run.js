@@ -5,7 +5,7 @@ var findMinMax = function(list){
         var MinNMax = [Min,Max]
         var  is_equal = []
 
-//checking whether the element is equal to itself
+//checking whether the element is min and max
         for(i= 0; i < list.length; i++){
             if(list[i] == list[i+1]){
                  is_equal.push(list[i])
