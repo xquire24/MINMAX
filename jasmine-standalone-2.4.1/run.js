@@ -1,15 +1,5 @@
-var findMinMax = function(list){
-    var low = list[0];
-    var high = list[0];
-    var nlist = [];
-  for (var i = 0; i <= list.length; i++) {
-    if (list[i] <= low) {
-        low = list[i];
-        nlist[0]=low;
-    } else if (list[i] >= high) {
-        high = list[i];
-        nlist[1]=high;
-    }
-}
-return nlist;
-}
+var findMinMax = function(num){
+// determining the minimum and maximum elements in a list
+        var Min = Math.min.apply(null, num);
+        var Max = Math.max.apply(null, num);
+        var MinNMax = [Min,Max]
