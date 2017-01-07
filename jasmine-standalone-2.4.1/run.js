@@ -6,9 +6,9 @@ var findMinMax = function(list){
         var  is_equal = []
 
 //checking whether the element is equal to itself
-        for(i= 0; i < num.length; i++){
-            if(num[i] == num[i+1]){
-                 is_equal.push(num[i])
+        for(i= 0; i < list.length; i++){
+            if(list[i] == list[i+1]){
+                 is_equal.push(list[i])
                 return is_equal
             }
             else return MinNMax
